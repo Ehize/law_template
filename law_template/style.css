@@ -1,0 +1,71 @@
+.logo {
+   color: #B89B5E;
+   width:50px;
+   font-size: 26px;
+   font-family: Times New Roman, Times, serif;
+}
+
+.btn-warn {
+ background-color:  #B89B5E;
+}
+
+img {
+    width: 100%;
+}
+
+.text {
+    font-size: 55px; 
+    color: #ffffff;
+    font-family: Times New Roman, Times, serif;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+.text-width {
+   width: 50%; 
+}
+
+.first-sec {
+width: 100%;
+height: 350px;
+background: #293138;
+color: #ffffff;
+padding-top: 80px;
+}
+
+.second-sec {
+width: 100%;
+height: 450px;
+background: #1A2530;
+padding-top: 80px;
+color: #ffffff;
+}
+
+.third-sec {
+    width: 100%;
+    height: 280px;
+    background: #293138;
+    padding-top: 80px;
+    color: #ffffff;
+}
+
+.fourth-sec {
+    width: 100%;
+    height: 450px;
+    background: #1A2530;
+    padding-top: 80px;
+    color: #ffffff;
+}
+
+.fifth-sec {
+   padding-top: 80px;
+   width: 100%;
+   height: auto;
+
+}
