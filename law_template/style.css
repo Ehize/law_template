@@ -48,6 +48,7 @@ html, body {
     height: 350px;
     background: #293138;
     color: #ffffff;
+    padding: 10px;
     padding-top: 90px;
     }
 
@@ -58,6 +59,10 @@ html, body {
     margin: 0 auto;
     padding: 25px;
     font-family: Times New Roman, Times, serif;
+}
+
+.score-area {
+  padding: 5px;
 }
 
 .second-sec {
