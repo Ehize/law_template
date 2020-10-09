@@ -33,7 +33,7 @@ html, body {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 440px;
     left: 50%;
     width: 80%;
     transform: translate(-50%, -50%);
@@ -217,11 +217,14 @@ color: #ffffff;
  width:  100%;
  opacity: 0.5;
  height: auto;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
  }
 
  .footer-img-text {
     position: relative;
-    left: 34%;
+    left: 425px;
     width: 50%;
     color: white;
   }
@@ -452,4 +455,3 @@ color: #ffffff;
         }
 
 }
-
