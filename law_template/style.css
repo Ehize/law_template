@@ -213,6 +213,14 @@ color: #ffffff;
     font-size: 20px;
  }
 
+ .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+ }
+
  .footer-img {
  width:  100%;
  opacity: 0.5;
@@ -224,59 +232,29 @@ color: #ffffff;
 
  .footer-img-text {
     position: relative;
-    left: 425px;
-    width: 50%;
+    margin: 0 auto;
     color: white;
-  }
-
- .main-footer-text {
-  margin-top: -120px;
-  height: auto;
   }
 
  .footer-text {
      font-size: 20px;
-     width: 100%;
-     padding-top: -280px;
+     width: auto;
+     padding-top: 30px;
      height: auto;
  }
 
  .inline-footer-text {
     position: relative;
-    top: -100px;
-    left: 450px;
-    width: 100%;
-    transform: translate(-50%, -50%);
     text-align: center;
   }
   
   .logo-footer {
     color: #B89B5E;
-    width: 100%;
     font-size: 26px;
     font-family: Times New Roman, Times, serif;
-    padding-right: 320px;
+    transform: translate(-50%, -50%);
   }
 
-  .onliner-main {
-  width: 100%;
-  }
-
-  .onliner {
-    display: inline-grid;
-    width: 26%;
-  }
-
-  .onliner1 {
-    display: inline-grid;
-    width: 15%;
-  }
-
-  .onliner2 {
-    display: inline-grid;
-    width: 26%;
-  }
-   
   .word-icon {
     margin-left: 8px;
    }
@@ -297,7 +275,7 @@ color: #ffffff;
         width: 13%;
        }
 
-@media (max-width: 640px) { 
+@media (max-width: 600px) { 
     /*home*/ 
     .top-area {
         margin-bottom: -56px;
@@ -327,6 +305,7 @@ color: #ffffff;
     
     body {
         width: 100%;
+        height: auto;
     }
 
     .text {
@@ -350,7 +329,6 @@ color: #ffffff;
 
       .score-card {
           height: auto;
-          padding-top: 20px;
       }
 
       .first-sec {
@@ -379,6 +357,7 @@ color: #ffffff;
         padding-top: 10px;
         padding-bottom: 10px;
         }
+
         .text-width {
             width: 100%; 
          }
@@ -421,16 +400,10 @@ color: #ffffff;
         }
         
         .inline-footer-text {
-            left: 140px;
             font-size: 16px;
         }
 
         .footer-img-text {
-            width: 100%;
-        }
-
-        .onliner, .onliner1, .onliner2 {
-            display: inline-block;
             width: 100%;
         }
 
@@ -455,3 +428,26 @@ color: #ffffff;
         }
 
 }
+
+
+@media only screen and (max-width: 768px) {
+    .score-card {
+    height: auto;
+    }
+
+    .first-sec {
+      width: 100%;
+      height: auto;
+    }
+    
+    body {
+        width: 100%;
+        height: auto;
+    }
+
+    .img-home {
+        width: 100%;
+        margin-top: 65px;
+        height: 320px;
+    }
+  }
