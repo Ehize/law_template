@@ -35,7 +35,7 @@ html, body {
     position: absolute;
     top: 440px;
     left: 50%;
-    width: 80%;
+    width: 100%;
     transform: translate(-50%, -50%);
   }
 
@@ -145,7 +145,7 @@ color: #ffffff;
     background: transparent;
 }
 
-.img-area{
+.img-area {
     width: 100px;
     height: 100px;
     margin: auto;
@@ -287,7 +287,6 @@ color: #ffffff;
         font-size: 28px;
         font-family: Times New Roman, Times, serif;
      }
-     
 
     .navbar {
         width: 100%;
@@ -299,11 +298,6 @@ color: #ffffff;
     .img-home {
         width: 100%;
         margin-top: 65px;
-        height: 320px;
-    }
-    
-    body {
-        width: 100%;
         height: auto;
     }
 
@@ -318,7 +312,7 @@ color: #ffffff;
         position: relative;
         top: 50%;
         left: 50%;
-        width: 80%;
+        width: 100%;
         transform: translate(-50%, -50%); 
       }
     
@@ -335,7 +329,7 @@ color: #ffffff;
         height: auto;
         background: #293138;
         color: #ffffff;
-        padding-top: 20px;
+        padding-top: 50px;
         padding-bottom: 20px;
         }
 
@@ -448,5 +442,35 @@ color: #ffffff;
         width: 100%;
         margin-top: 65px;
         height: 320px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .centered {
+        margin-top: -80px;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+      }
+
+      .text {
+        font-size: 25px;
+      }
+
+      .first-sec {
+        height: auto;
+      }
+
+      .logo {
+        font-size: 27px;
+      }
+
+      .navbar {
+        width: 100%;
+        position: absolute;
+        opacity: 1;
+        background-color:  #293138;
     }
   }
