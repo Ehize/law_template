@@ -460,7 +460,7 @@ color: #ffffff;
       }
 
       .first-sec {
-        height: auto;
+        height: 350px;
       }
 
       .logo {
@@ -473,8 +473,4 @@ color: #ffffff;
         opacity: 1;
         background-color:  #293138;
     }
-      
-      .score-area {
-        padding-bottom: 80px;
-     }
   }
