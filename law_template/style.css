@@ -473,4 +473,8 @@ color: #ffffff;
         opacity: 1;
         background-color:  #293138;
     }
+      
+      .score-area {
+        padding-bottom: 80px;
+     }
   }
