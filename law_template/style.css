@@ -65,6 +65,10 @@ html, body {
   padding: 5px;
 }
 
+/* .form-area {
+  background-color: blue;
+} */
+
 .second-sec {
 width: 100%;
 height: 350px;
@@ -87,6 +91,10 @@ color: #ffffff;
     background:  #1A2530;
     padding-top: 80px;
     color: #ffffff;
+}
+
+.nav-area {
+   background: #293138;
 }
 
 .fifth-sec {
@@ -178,7 +186,6 @@ color: #ffffff;
     border: 1px solid #ffffff;
 }
 
-
 .carousel-caption {
     position: static;
     padding-bottom: 15px;
@@ -259,8 +266,7 @@ color: #ffffff;
     margin-left: 8px;
    }
 
- .footer-text p{
-   padding-left: 50px;
+ .footer-text p {
    position: relative;
    margin-bottom: 0px;
 }
@@ -273,6 +279,63 @@ color: #ffffff;
     .socials {
         float: right;
        }
+
+/* contact area */
+ .contact-title {
+     margin-top: 200px;
+     color: #ffffff;
+     text-transform: uppercase;
+     transition: all 4s ease-in-out;
+ }
+
+ .contact-title h1 {
+     font-size: 32px;
+     line-height: 10px;
+ }
+
+ .contact-title h2 {
+     font-size: 16px;
+     margin-top: 30px;
+ }
+
+ .contact-area {
+     background-color:  #1A2530;
+     background-size: cover;
+     margin: 0;
+     padding: 0;
+     background-position: center;
+     text-align: center; 
+ }
+
+ form {
+     margin-top: 50px;
+     transition: all 4s ease-in-out;
+     margin-bottom: 120px;
+ }
+
+ .form-control {
+     width: 600px;
+     background: repeat;
+     border: none;
+     outline: none;
+     border-bottom: 1px solid gray;
+     color: #ffffff;
+     font-size: 18px;
+     margin-bottom: 16px;
+     margin: 0 auto;
+ }
+
+ input {
+     height: 45px;
+ }
+
+ form .submit {
+     background: #B89B5E;
+     border-color: transparent;
+     letter-spacing: 1px;
+     height: 40px;
+     margin-top: 20px;
+ }
 
 @media (max-width: 600px) { 
     /*home*/ 
@@ -420,6 +483,25 @@ color: #ffffff;
            display: inline-grid;
         }
 
+        /* contact page */
+        .form-control {
+            width: auto;
+        }
+
+        .contact-title h1 {
+            font-size: 22px;
+            line-height: 10px;
+        }
+       
+        .contact-title h2 {
+            font-size: 14px;
+            width: auto;
+            margin-top: 20px;
+        }
+
+        .contact-area {
+            width: auto;
+        }
 }
 
 
@@ -446,7 +528,7 @@ color: #ffffff;
   }
 
   @media only screen and (max-width: 1024px) {
-    .centered {
+     .centered {
         margin-top: -80px;
         position: relative;
         top: 50%;
@@ -473,12 +555,5 @@ color: #ffffff;
         opacity: 1;
         background-color:  #293138;
     }
-<<<<<<< HEAD
 
-     .score-area {
-        padding-bottom: 80px;
-     }
   }
-=======
-  }
->>>>>>> 8f0dc6db814e1743a395e01aab761655225e9763
